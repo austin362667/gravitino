@@ -45,9 +45,9 @@ public class TestConfigEntry {
             .toSequence()
             .checkValue(
                 valueList ->
-                    (!Objects.equals(valueList.get(0), "test-string0")
-                        && !Objects.equals(valueList.get(1), "test-string0")
-                        && !Objects.equals(valueList.get(2), "test-string0")),
+                    (!Objects.equals(valueList.get(0), "test-string")
+                        && !Objects.equals(valueList.get(1), "test-string")
+                        && !Objects.equals(valueList.get(2), "test-string")),
                 "error")
             .checkValue(
                 valueList ->
